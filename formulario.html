@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de servicios</title>
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img class="container__logo" src="./img/logoFsiosBlanco.png" alt="">
+        </div>
+        
+    </header>
+        <div class=".container__formulario">
+            <form>
+                <h2>¿Qué servicio utilizas?</h2>
+                <div class="radios">
+                  <input type="radio" id="examen-ocupacionales" name="servicio" value="examen-ocupacionales" required />
+                  <label for="examen-ocupacionales">Examen Ocupacionales</label>
+                  <br />
+                  <input type="radio" id="renovacion-licencia" name="servicio" value="renovacion-licencia" required />
+                  <label for="renovacion-licencia">Renovación licencia de conducción</label>
+                  <br />
+                  <input type="radio" id="psicofisico" name="servicio" value="psicofisico" required />
+                  <label for="psicofisico">Psicofísico (porte de armas)</label>
+                </div>
+          
+                <h2>Calificación de experiencia</h2>
+                <div class="calificacionExp">
+                  <label for="actitud">Actitud del personal en la recepción:</label>
+                  <select name="actitud" id="actitud">
+                    <option value="muy-buena">Muy buena</option>
+                    <option value="buena">Buena</option>
+                    <option value="regular">Regular</option>
+                    <option value="mala">Mala</option>
+                    <option value="muy-mala">Muy mala</option>
+                    <option value="no-responde">No responde</option>
+                  </select>
+                  <br />
+                  <label for="asistencia">Asistencia de acuerdo a sus necesidades:</label>
+                  <select name="asistencia" id="asistencia">
+                    <option value="muy-buena">Muy buena</option>
+                    <option value="buena">Buena</option>
+                    <option value="regular">Regular</option>
+                    <option value="mala">Mala</option>
+                    <option value="muy-mala">Muy mala</option>
+                    <option value="no-responde">No responde</option>
+                  </select>
+                  <br />
+                  <label for="trato">Trato del personal al paciente:</label>
+                  <select name="trato" id="trato">
+                    <option value="muy-buena">Muy buena</option>
+                    <option value="buena">Buena</option>
+                    <option value="regular">Regular</option>
+                    <option value="mala">Mala</option>
+                    <option value="muy-mala">Muy mala</option>
+                    <option value="no-responde">No responde</option>
+                  </select>
+                  <br />
+                  <label for="trato">Puntualidad del personal:</label>
+                  <select name="trato" id="trato">
+                    <option value="muy-buena">Muy buena</option>
+                    <option value="buena">Buena</option>
+                    <option value="regular">Regular</option>
+                    <option value="mala">Mala</option>
+                    <option value="muy-mala">Muy mala</option>
+                    <option value="no-responde">No responde</option>
+                  </select>
+                  <br />
+                  <label for="trato">Orden en el desarrollo de las actividades:</label>
+                      <select name="trato" id="trato">
+                      <option value="muy-buena">Muy buena</option>
+                      <option value="buena">Buena</option>
+                      <option value="regular">Regular</option>
+                      <option value="mala">Mala</option>
+                      <option value="muy-mala">Muy mala</option>
+                      <option value="no-responde">No responde</option>
+                      </select>
+                  </div>
+                  <br />
+          
+                  <h2>Frente a la infrastructura</h2>
+                  <div class="calificacionInf">
+                      
+                  <label for="trato">Orden y aseo en las instalaciones:</label>
+                      <select name="trato" id="trato">
+                          <option value="muy-buena">Muy buena</option>
+                          <option value="buena">Buena</option>
+                          <option value="regular">Regular</option>
+                          <option value="mala">Mala</option>
+                          <option value="muy-mala">Muy mala</option>
+                          <option value="no-responde">No responde</option>
+                      </select>
+                      <br />
+                      <label for="trato">Estado de las instalaciones:</label>
+                      <select name="trato" id="trato">
+                          <option value="muy-buena">Muy buena</option>
+                          <option value="buena">Buena</option>
+                          <option value="regular">Regular</option>
+                          <option value="mala">Mala</option>
+                          <option value="muy-mala">Muy mala</option>
+                          <option value="no-responde">No responde</option>
+                      </select>
+                  </div>
+          
+                  <h2>Satisfacción</h2>
+                  <div class="calificacionInf">
+                      
+                  <label for="trato">De acuerdo a su experiencia, ¿Qué tan satisfecho está con el servicio recibido?:</label>
+                      <select name="trato" id="trato">
+                          <option value="muy-buena">Muy buena</option>
+                          <option value="buena">Buena</option>
+                          <option value="regular">Regular</option>
+                          <option value="mala">Mala</option>
+                          <option value="muy-mala">Muy mala</option>
+                          <option value="no-responde">No responde</option>
+                      </select>
+                      <br />
+                      <label for="trato">¿Recomendaría nuestros servicios a un familiar o amigo?</label>
+                      <select name="trato" id="trato">
+                          <option value="muy-buena">Definitivamente si</option>
+                          <option value="buena">Probablemente si</option>
+                          <option value="regular">Probablemente no</option>
+                          <option value="mala">Definitivamente no</option>
+                          <option value="no-responde">No responde</option>
+                      </select>
+                  
+                  
+                  <h2>Queremos saber tu opinión</h2>
+                  <textarea name="comentarios" rows="5" cols="40"></textarea>
+                  <br />
+                  <br />
+                </form>   
+                <input type="submit" value="Enviar" />
+            </div>
+
+            
+          
+</body>
+</html>
